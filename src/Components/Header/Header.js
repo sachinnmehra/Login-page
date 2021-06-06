@@ -8,7 +8,7 @@ import "./Header.css";
 const header = ({ currentUser }) => {
   return (
     <div className="header">
-      <Link className="logo-container" to="/signin">
+      <Link className="logo-container" to="/">
         <Logo className="logo" />
       </Link>
       <div className="options">
@@ -17,7 +17,7 @@ const header = ({ currentUser }) => {
             SIGN OUT
           </div>
         ) : (
-          <Link to="/signin">SIGN IN</Link>
+          <Link to="/">SIGN IN</Link>
         )}
       </div>
     </div>

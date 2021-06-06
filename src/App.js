@@ -34,9 +34,9 @@ class App extends Component {
       <div>
         <Header />
         {/* <Route exact path="/home" component={Home} /> */}
-        <Route exact path="/" component={SignInSignUpPage} />
+        {/* <Route exact path="/" component={SignInSignUpPage} /> */}
         <Route
-          path="/signin"
+          path="/"
           render={() =>
             this.props.currentUser ? (
               <Redirect to="/home" />
@@ -49,7 +49,7 @@ class App extends Component {
           exact
           path="/home"
           render={() =>
-            !this.props.currentUser ? <Redirect to="/signin" /> : <Home />
+            !this.props.currentUser ? <Redirect to="/" /> : <Home />
           }
         />
       </div>
