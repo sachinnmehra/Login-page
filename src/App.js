@@ -33,10 +33,9 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <Route exact path="/home" component={Home} />
+        {/* <Route exact path="/home" component={Home} /> */}
         <Route exact path="/" component={SignInSignUpPage} />
         <Route
-          exact
           path="/signin"
           render={() =>
             this.props.currentUser ? (
@@ -44,6 +43,13 @@ class App extends Component {
             ) : (
               <SignInSignUpPage />
             )
+          }
+        />
+        <Route
+          exact
+          path="/home"
+          render={() =>
+            !this.props.currentUser ? <Redirect to="/signin" /> : <Home />
           }
         />
       </div>

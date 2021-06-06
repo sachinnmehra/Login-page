@@ -8,7 +8,7 @@ import "./Header.css";
 const header = ({ currentUser }) => {
   return (
     <div className="header">
-      <Link className="logo-container" to="/">
+      <Link className="logo-container" to="/signin">
         <Logo className="logo" />
       </Link>
       <div className="options">
