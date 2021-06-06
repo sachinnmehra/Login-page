@@ -1,0 +1,36 @@
+.dashboard {
+  border: 1px solid black;
+}
+
+.dashboard > h1 {
+  text-align: center;
+}
+
+.pieChart > img {
+  width: 242px;
+  height: auto;
+
+  /* margin-top: 80px; */
+}
+.pieChart {
+  margin: 0;
+}
+.select_chart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.pieChart > h3 {
+  margin-bottom: 20px;
+}
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.chart > button {
+  margin-top: 30px;
+  padding: 10px;
+  width: 120px;
+  margin-left: 60px;
+}

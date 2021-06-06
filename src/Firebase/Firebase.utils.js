@@ -3,13 +3,13 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const config = {
-  apiKey: "AIzaSyBuudiNWM9DkpdpN0lmZ3XwOTOQfJASypU",
-  authDomain: "ecommerce-website-16d49.firebaseapp.com",
-  projectId: "ecommerce-website-16d49",
-  storageBucket: "ecommerce-website-16d49.appspot.com",
-  messagingSenderId: "599874543583",
-  appId: "1:599874543583:web:f0b4fcabc3b1765dea2e6a",
-  measurementId: "G-2QCRHE8LCQ",
+  apiKey: "AIzaSyAywSqFOMtwMjNV-QpifhweUHRxGlQRABU",
+  authDomain: "chartproject-ff4df.firebaseapp.com",
+  projectId: "chartproject-ff4df",
+  storageBucket: "chartproject-ff4df.appspot.com",
+  messagingSenderId: "821659094474",
+  appId: "1:821659094474:web:b3e1ca1c21289f21d5d333",
+  measurementId: "G-LLPYS86G68",
 };
 
 //for storing userdata in firestore
